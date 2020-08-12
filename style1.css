@@ -1,0 +1,70 @@
+.header-img {
+    height: 6%;
+    width: 6%;
+}
+
+header {
+    background-color: red;
+
+}
+
+header h1 {
+    display: inline;
+}
+/*.m1
+{
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+}*/
+
+#leftbox
+ { 
+  float:left;  
+ 
+  width:15%; 
+  height:550px; 
+  } 
+ #middlebox{ 
+  float:left;  
+  background:white; 
+  width:85%; 
+  height:550px; 
+    } 
+    .menu
+     {
+   height: 99%;
+  width: 15%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+     }
+     .menu a
+     {
+     	padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+     }
+.menu a:hover {
+  color: #f1f1f1;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
